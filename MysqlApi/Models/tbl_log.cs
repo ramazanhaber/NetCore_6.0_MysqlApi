@@ -7,7 +7,7 @@ namespace MysqlApi.Models
             [Key]
             public int id { get; set; }
             public int? kul_id { get; set; }
-            public string? yapilan_islem { get; set; }
+            public string? yapilan_islem { get; set; } // aa
             public DateTime? tarih { get; set; }
     }
 }
